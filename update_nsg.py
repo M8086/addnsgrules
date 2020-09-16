@@ -16,8 +16,8 @@ from azure.mgmt.network.models import SecurityRuleDirection, SecurityRuleProtoco
 from msrestazure.azure_exceptions import CloudError
 
 # Supply the resource group name and the name of the Network Security Group below
-GROUP_NAME = "upskill-challenge"
-NSG_NAME = "upskill-srv-nsg"
+GROUP_NAME = ""
+NSG_NAME = ""
 
 # You will want to supply the values in this function as environment variables
 def get_credentials():
