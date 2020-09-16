@@ -5,9 +5,7 @@ import os
 import traceback
 
 from azure.common.credentials import ServicePrincipalCredentials
-from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.network import NetworkManagementClient
-from azure.mgmt.network.models import NetworkSecurityGroup
 
 # Split the below two imports to cut down on column length
 from azure.mgmt.network.models import SecurityRule, SecurityRuleAccess 
